@@ -28,7 +28,7 @@
 
 ### Installation Process
 
-[Go Back to the top](Post-search-Image)
+[Go Back to the top](#Post-search-Image)
 
 ## Technology Used
 
@@ -70,11 +70,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](Post-search-Image)
+[Go Back to the top](#Post-search-Image)
 
 ## Authors Info
 
 Slack Profile - [Kiplangat Meshack](https://moringaclassroom.slack.com/team/U02TWD73YSE)
 Linked - [Kiplangat Meshack](https://www.linkedin.com/in/kiplangat-meshack-411598216/)
 
-[Go Back to the top](Post-search-Image )
+[Go Back to the top](#Post-search-Image )
