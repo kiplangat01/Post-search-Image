@@ -23,51 +23,6 @@
     
     {% endblock %}
 
-    {%block scripts%}
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-        <script src="{% static '/js/main.js'%}"></script>
-        <script>
-            popup = {
-          init: function(){
-            $('figure').click(function(){
-              popup.open($(this));
-            });
-            
-            $(document).on('click', '.popup img', function(){
-              return false;
-            }).on('click', '.popup', function(){
-              popup.close();
-            })
-          },
-          open: function($figure) {
-            $('.gallery').addClass('pop');
-            $popup = $('<div class="popup" />').appendTo($('body'));
-            $fig = $figure.clone().appendTo($('.popup'));
-            $bg = $('<div class="bg" />').appendTo($('.popup'));
-            $close = $('<div class="close"><svg><use xlink:href="#close"></use></svg></div>').appendTo($fig);
-            $shadow = $('<div class="shadow" />').appendTo($fig);
-            src = $('img', $fig).attr('src');
-            $shadow.css({backgroundImage: 'url(' + src + ')'});
-            $bg.css({backgroundImage: 'url(' + src + ')'});
-            setTimeout(function(){
-              $('.popup').addClass('pop');
-            }, 10);
-          },
-          close: function(){
-            $('.gallery, .popup').removeClass('pop');
-            setTimeout(function(){
-              $('.popup').remove()
-            }, 100);
-          }
-        }
-        
-        popup.init()
-        
-        </script>
-  
-    {% endblock %}
     
 </body>
 </html>
