@@ -1,0 +1,24 @@
+
+
+<nav style="color: white;" class="navbar navbar-expand-lg  bg-dark">
+    <a class="navbar-brand text-light" href="#">Phoot Gallery</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    <div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="{% url 'gallery' %}">all</a>
+        </li>
+        {% for category in categories  %}
+                     <li class="nav-item text-light  text-light">
+                       <a class="nav-link text-light" href="{% url 'gallery' %}?category={{ category.name }}">{{ category.name }}</a>
+                      </li>
+            {% endfor %}
+      <form action="/search" role="search" style="display: inline-flex;" class="form-inline my-2 my-lg-0 m-5">
+        {% csrf_token %}
+        <input class="form-control mr-sm-2" type="search" placeholder="Search category" name="searched" aria-label="Search">
+        <button class="btn btn-outline-success m-3 my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
