@@ -2,7 +2,7 @@
 
 ##### Kiplangat Meshack
 
-### this is photoalbum application which consist of diiffent categories of photos (Post-search-Image).
+### this is photoalbum application builded using django python framework which consist of diiffent categories of photos (Post-search-Image).
 
 ## Table of Content
 
