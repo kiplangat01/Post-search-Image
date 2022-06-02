@@ -15,7 +15,7 @@
 
 ## Description
  
-<p>this web consist of different types of photo from different categories uploded using django program.user can can search and view images depending on different locations and categories
+<p>this web consist of different types of photo from different categories taken in different locations uploded using django program.user can can search and view images depending on different locations and categories
 </p>
 
 ## Installation
