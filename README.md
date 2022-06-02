@@ -28,7 +28,7 @@
 
 ### Installation Process
 
-[Go Back to the top](sweetbite pizza web project)
+[Go Back to the top](Post-search-Image)
 
 ## Technology Used
 
@@ -36,13 +36,15 @@
 
 - CSS - which was used to style the pages incuding the left aside navigation bar
 
-- javascript - to make the web interactice
+- javascript - to make a popupc image show
+
+- django - to meet all functionalities
 
 ## Reference
 
 - Materialize CSS
 
-[Go Back to the top](#Sweetbite pizza  web restaurant)
+[Go Back to the top](#Post-search-Image)
 
 ## Licence
 
@@ -75,4 +77,4 @@ SOFTWARE.
 Slack Profile - [Kiplangat Meshack](https://moringaclassroom.slack.com/team/U02TWD73YSE)
 Linked - [Kiplangat Meshack](https://www.linkedin.com/in/kiplangat-meshack-411598216/)
 
-[Go Back to the top](#sweetbite pizza online restaurant)
+[Go Back to the top](#Post-search-Image)
