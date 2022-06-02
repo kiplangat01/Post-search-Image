@@ -24,7 +24,7 @@
 
 - Either a computer,phone,tablet or an Ipad
 
-- An access to the Internet
+- An access to the exelent Internet
 
 ### Installation Process
 
@@ -36,9 +36,9 @@
 
 - CSS - which was used to style the pages incuding the left aside navigation bar
 
-- javascript - to make a popupc image show
+- javascript - to make a popup image show
 
-- django - to meet all functionalities
+- django - to meet all functionalities for the entire page
 
 ## Reference
 
