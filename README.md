@@ -2,7 +2,7 @@
 
 ##### Kiplangat Meshack
 
-### This is online pizza restaurant page where you can order a pizza depending on the size you want and the cost you also have an option to go collect the ordered pizza or get delivered to your place(Sweetbite pizza).
+### this is photoalbum application which consist of diiffent categories of photos (Post-search-Image).
 
 ## Table of Content
 
@@ -15,7 +15,7 @@
 
 ## Description
 
-<p>This is online pizza restaurant page where you can order a pizza depending on the size you want and the cost you also have an option to go collect the ordered pizza or get delivered to your place which will add charges to your total cost
+<p>this web consist of different 
 </p>
 
 ## Installation
